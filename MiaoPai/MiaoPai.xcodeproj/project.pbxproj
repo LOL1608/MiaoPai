@@ -14,6 +14,12 @@
 		6F0686791DE02ED500C78337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0686771DE02ED500C78337 /* Main.storyboard */; };
 		6F06867B1DE02ED500C78337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F06867A1DE02ED500C78337 /* Assets.xcassets */; };
 		6F06867E1DE02ED500C78337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F06867C1DE02ED500C78337 /* LaunchScreen.storyboard */; };
+		FB3D10DC1DE04C2100874053 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10DB1DE04C2100874053 /* TabBarController.m */; };
+		FB3D10DF1DE04CF500874053 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10DE1DE04CF500874053 /* HomeViewController.m */; };
+		FB3D10E21DE04D0600874053 /* HotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10E11DE04D0600874053 /* HotViewController.m */; };
+		FB3D10E51DE04D2100874053 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10E41DE04D2100874053 /* MoreViewController.m */; };
+		FB3D10E81DE04D2B00874053 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10E71DE04D2B00874053 /* FindViewController.m */; };
+		FB3D10EB1DE04D3400874053 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10EA1DE04D3400874053 /* MineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +32,24 @@
 		6F0686741DE02ED500C78337 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6F0686751DE02ED500C78337 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6F0686781DE02ED500C78337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6F06867A1DE02ED500C78337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F06867A1DE02ED500C78337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		6F06867D1DE02ED500C78337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F06867F1DE02ED500C78337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2746B9BFC4A982DA28BC0C0 /* Pods-MiaoPai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiaoPai.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiaoPai/Pods-MiaoPai.release.xcconfig"; sourceTree = "<group>"; };
+		FB3D10D81DE04B0400874053 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FB3D10D91DE04B3500874053 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FB3D10DA1DE04C2100874053 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		FB3D10DB1DE04C2100874053 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		FB3D10DD1DE04CF500874053 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FB3D10DE1DE04CF500874053 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FB3D10E01DE04D0600874053 /* HotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotViewController.h; sourceTree = "<group>"; };
+		FB3D10E11DE04D0600874053 /* HotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotViewController.m; sourceTree = "<group>"; };
+		FB3D10E31DE04D2100874053 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		FB3D10E41DE04D2100874053 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		FB3D10E61DE04D2B00874053 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		FB3D10E71DE04D2B00874053 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		FB3D10E91DE04D3400874053 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		FB3D10EA1DE04D3400874053 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +89,13 @@
 				6F0686721DE02ED500C78337 /* AppDelegate.m */,
 				6F0686741DE02ED500C78337 /* ViewController.h */,
 				6F0686751DE02ED500C78337 /* ViewController.m */,
-				6F0686771DE02ED500C78337 /* Main.storyboard */,
-				6F06867A1DE02ED500C78337 /* Assets.xcassets */,
-				6F06867C1DE02ED500C78337 /* LaunchScreen.storyboard */,
-				6F06867F1DE02ED500C78337 /* Info.plist */,
+				FB3D10CE1DE04A9D00874053 /* Model */,
+				FB3D10D11DE04A9D00874053 /* View */,
+				FB3D10D21DE04A9D00874053 /* ViewController */,
+				FB3D10CF1DE04A9D00874053 /* NetManager */,
+				FB3D10CC1DE04A9D00874053 /* Category */,
+				FB3D10CD1DE04A9D00874053 /* Define */,
+				FB3D10D01DE04A9D00874053 /* Resource */,
 				6F06866E1DE02ED500C78337 /* Supporting Files */,
 			);
 			path = MiaoPai;
@@ -81,7 +104,9 @@
 		6F06866E1DE02ED500C78337 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F06867F1DE02ED500C78337 /* Info.plist */,
 				6F06866F1DE02ED500C78337 /* main.m */,
+				FB3D10D91DE04B3500874053 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -101,6 +126,111 @@
 				31CA1C1AE905104E7612565E /* libPods-MiaoPai.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB3D10CC1DE04A9D00874053 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FB3D10CD1DE04A9D00874053 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D10D81DE04B0400874053 /* Constants.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		FB3D10CE1DE04A9D00874053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB3D10CF1DE04A9D00874053 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		FB3D10D01DE04A9D00874053 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6F0686771DE02ED500C78337 /* Main.storyboard */,
+				6F06867A1DE02ED500C78337 /* Assets.xcassets */,
+				6F06867C1DE02ED500C78337 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FB3D10D11DE04A9D00874053 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB3D10D21DE04A9D00874053 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D10DA1DE04C2100874053 /* TabBarController.h */,
+				FB3D10DB1DE04C2100874053 /* TabBarController.m */,
+				FB3D10D71DE04A9D00874053 /* 首页 */,
+				FB3D10D61DE04A9D00874053 /* 热榜 */,
+				FB3D10D51DE04A9D00874053 /* 更多 */,
+				FB3D10D31DE04A9D00874053 /* 发现 */,
+				FB3D10D41DE04A9D00874053 /* 我的 */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FB3D10D31DE04A9D00874053 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D10E61DE04D2B00874053 /* FindViewController.h */,
+				FB3D10E71DE04D2B00874053 /* FindViewController.m */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		FB3D10D41DE04A9D00874053 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D10E91DE04D3400874053 /* MineViewController.h */,
+				FB3D10EA1DE04D3400874053 /* MineViewController.m */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		FB3D10D51DE04A9D00874053 /* 更多 */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D10E31DE04D2100874053 /* MoreViewController.h */,
+				FB3D10E41DE04D2100874053 /* MoreViewController.m */,
+			);
+			path = "更多";
+			sourceTree = "<group>";
+		};
+		FB3D10D61DE04A9D00874053 /* 热榜 */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D10E01DE04D0600874053 /* HotViewController.h */,
+				FB3D10E11DE04D0600874053 /* HotViewController.m */,
+			);
+			path = "热榜";
+			sourceTree = "<group>";
+		};
+		FB3D10D71DE04A9D00874053 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D10DD1DE04CF500874053 /* HomeViewController.h */,
+				FB3D10DE1DE04CF500874053 /* HomeViewController.m */,
+			);
+			path = "首页";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,9 +356,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3D10E21DE04D0600874053 /* HotViewController.m in Sources */,
 				6F0686761DE02ED500C78337 /* ViewController.m in Sources */,
+				FB3D10DC1DE04C2100874053 /* TabBarController.m in Sources */,
+				FB3D10EB1DE04D3400874053 /* MineViewController.m in Sources */,
 				6F0686731DE02ED500C78337 /* AppDelegate.m in Sources */,
+				FB3D10DF1DE04CF500874053 /* HomeViewController.m in Sources */,
+				FB3D10E51DE04D2100874053 /* MoreViewController.m in Sources */,
 				6F0686701DE02ED500C78337 /* main.m in Sources */,
+				FB3D10E81DE04D2B00874053 /* FindViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +377,7 @@
 				6F0686781DE02ED500C78337 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6F06867C1DE02ED500C78337 /* LaunchScreen.storyboard */ = {
@@ -249,6 +386,7 @@
 				6F06867D1DE02ED500C78337 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -350,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 96276M64J8;
+				GCC_PREFIX_HEADER = $PRODUCT_NAME/PrefixHeader.pch;
 				INFOPLIST_FILE = MiaoPai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BiaoGe.MiaoPai;
@@ -363,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 96276M64J8;
+				GCC_PREFIX_HEADER = $PRODUCT_NAME/PrefixHeader.pch;
 				INFOPLIST_FILE = MiaoPai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BiaoGe.MiaoPai;
@@ -389,6 +529,7 @@
 				6F0686841DE02ED500C78337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
