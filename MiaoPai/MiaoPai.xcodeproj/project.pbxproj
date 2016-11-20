@@ -20,6 +20,13 @@
 		FB3D10E51DE04D2100874053 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10E41DE04D2100874053 /* MoreViewController.m */; };
 		FB3D10E81DE04D2B00874053 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10E71DE04D2B00874053 /* FindViewController.m */; };
 		FB3D10EB1DE04D3400874053 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10EA1DE04D3400874053 /* MineViewController.m */; };
+		FBF6BD181DE14E8D004DC048 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BD171DE14E8D004DC048 /* HomePageViewController.m */; };
+		FBF6BD1B1DE1645D004DC048 /* NSString+MP.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BD1A1DE1645D004DC048 /* NSString+MP.m */; };
+		FBF6BD1E1DE164A1004DC048 /* NSObject+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BD1D1DE164A1004DC048 /* NSObject+Parse.m */; };
+		FBF6BD211DE165CC004DC048 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BD201DE165CC004DC048 /* BaseNetManager.m */; };
+		FBF6BD241DE17F99004DC048 /* FindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BD231DE17F99004DC048 /* FindModel.m */; };
+		FBF6BD271DE1808E004DC048 /* FindNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BD261DE1808E004DC048 /* FindNetManager.m */; };
+		FBF6BD2A1DE181EB004DC048 /* FindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BD291DE181EB004DC048 /* FindCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +57,20 @@
 		FB3D10E71DE04D2B00874053 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
 		FB3D10E91DE04D3400874053 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		FB3D10EA1DE04D3400874053 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		FBF6BD161DE14E8D004DC048 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		FBF6BD171DE14E8D004DC048 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		FBF6BD191DE1645D004DC048 /* NSString+MP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MP.h"; sourceTree = "<group>"; };
+		FBF6BD1A1DE1645D004DC048 /* NSString+MP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MP.m"; sourceTree = "<group>"; };
+		FBF6BD1C1DE164A1004DC048 /* NSObject+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Parse.h"; sourceTree = "<group>"; };
+		FBF6BD1D1DE164A1004DC048 /* NSObject+Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Parse.m"; sourceTree = "<group>"; };
+		FBF6BD1F1DE165CC004DC048 /* BaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetManager.h; sourceTree = "<group>"; };
+		FBF6BD201DE165CC004DC048 /* BaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetManager.m; sourceTree = "<group>"; };
+		FBF6BD221DE17F99004DC048 /* FindModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindModel.h; sourceTree = "<group>"; };
+		FBF6BD231DE17F99004DC048 /* FindModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindModel.m; sourceTree = "<group>"; };
+		FBF6BD251DE1808E004DC048 /* FindNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindNetManager.h; sourceTree = "<group>"; };
+		FBF6BD261DE1808E004DC048 /* FindNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindNetManager.m; sourceTree = "<group>"; };
+		FBF6BD281DE181EB004DC048 /* FindCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCell.h; sourceTree = "<group>"; };
+		FBF6BD291DE181EB004DC048 /* FindCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +152,10 @@
 		FB3D10CC1DE04A9D00874053 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FBF6BD191DE1645D004DC048 /* NSString+MP.h */,
+				FBF6BD1A1DE1645D004DC048 /* NSString+MP.m */,
+				FBF6BD1C1DE164A1004DC048 /* NSObject+Parse.h */,
+				FBF6BD1D1DE164A1004DC048 /* NSObject+Parse.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -146,6 +171,8 @@
 		FB3D10CE1DE04A9D00874053 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FBF6BD221DE17F99004DC048 /* FindModel.h */,
+				FBF6BD231DE17F99004DC048 /* FindModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,6 +180,10 @@
 		FB3D10CF1DE04A9D00874053 /* NetManager */ = {
 			isa = PBXGroup;
 			children = (
+				FBF6BD1F1DE165CC004DC048 /* BaseNetManager.h */,
+				FBF6BD201DE165CC004DC048 /* BaseNetManager.m */,
+				FBF6BD251DE1808E004DC048 /* FindNetManager.h */,
+				FBF6BD261DE1808E004DC048 /* FindNetManager.m */,
 			);
 			path = NetManager;
 			sourceTree = "<group>";
@@ -170,6 +201,8 @@
 		FB3D10D11DE04A9D00874053 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FBF6BD281DE181EB004DC048 /* FindCell.h */,
+				FBF6BD291DE181EB004DC048 /* FindCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -229,6 +262,8 @@
 			children = (
 				FB3D10DD1DE04CF500874053 /* HomeViewController.h */,
 				FB3D10DE1DE04CF500874053 /* HomeViewController.m */,
+				FBF6BD161DE14E8D004DC048 /* HomePageViewController.h */,
+				FBF6BD171DE14E8D004DC048 /* HomePageViewController.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -356,13 +391,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF6BD241DE17F99004DC048 /* FindModel.m in Sources */,
 				FB3D10E21DE04D0600874053 /* HotViewController.m in Sources */,
+				FBF6BD1B1DE1645D004DC048 /* NSString+MP.m in Sources */,
 				6F0686761DE02ED500C78337 /* ViewController.m in Sources */,
+				FBF6BD181DE14E8D004DC048 /* HomePageViewController.m in Sources */,
 				FB3D10DC1DE04C2100874053 /* TabBarController.m in Sources */,
+				FBF6BD2A1DE181EB004DC048 /* FindCell.m in Sources */,
+				FBF6BD211DE165CC004DC048 /* BaseNetManager.m in Sources */,
 				FB3D10EB1DE04D3400874053 /* MineViewController.m in Sources */,
 				6F0686731DE02ED500C78337 /* AppDelegate.m in Sources */,
+				FBF6BD271DE1808E004DC048 /* FindNetManager.m in Sources */,
 				FB3D10DF1DE04CF500874053 /* HomeViewController.m in Sources */,
 				FB3D10E51DE04D2100874053 /* MoreViewController.m in Sources */,
+				FBF6BD1E1DE164A1004DC048 /* NSObject+Parse.m in Sources */,
 				6F0686701DE02ED500C78337 /* main.m in Sources */,
 				FB3D10E81DE04D2B00874053 /* FindViewController.m in Sources */,
 			);

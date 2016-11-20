@@ -21,8 +21,8 @@
 #import <MJRefresh.h>
 #import <MBProgressHUD.h>
 
-//#import "NSString+CQ.h"
-//#import "NSObject+Parse.h"
+#import "NSString+MP.h"
+#import "NSObject+Parse.h"
 //#import "UIView+HUD.h"
 #import "Constants.h"
 

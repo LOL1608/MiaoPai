@@ -7,7 +7,7 @@
 //
 
 #import "TabBarController.h"
-#import "HomeViewController.h"
+#import "HomePageViewController.h"
 #import "HotViewController.h"
 #import "MoreViewController.h"
 #import "FindViewController.h"
@@ -15,7 +15,7 @@
 
 @interface TabBarController ()
 
-@property (nonatomic) HomeViewController *homeVC;
+@property (nonatomic) HomePageViewController *homeVC;
 @property (nonatomic) HotViewController *hotVC;
 @property (nonatomic) MoreViewController *moreVC;
 @property (nonatomic) FindViewController *findVC;
@@ -26,12 +26,17 @@
 @implementation TabBarController
 
 #pragma mark - Lazy
--(HomeViewController *)homeVC{
+-(HomePageViewController *)homeVC{
     if (!_homeVC) {
-        _homeVC = [HomeViewController new];
+        _homeVC = [HomePageViewController new];
         _homeVC.title = @"首页";
         _homeVC.tabBarItem.image = [UIImage imageNamed:@"MPTTabarHome_49x36_"];
         _homeVC.tabBarItem.selectedImage = [UIImage imageNamed:@"MPTTabarHomeSelected_49x36_"];
+        _homeVC.titleColorNormal = kNormalColor;
+        _homeVC.titleColorSelected = kSelectColor;
+        _homeVC.showOnNavigationBar = YES;
+        _homeVC.menuBGColor = [UIColor clearColor];
+//        _homeVC.menuViewStyle = WMMenuViewStyleLine;
     }
     return _homeVC;
 }
@@ -49,13 +54,23 @@
 -(MoreViewController *)moreVC{
     if (!_moreVC) {
         _moreVC = [MoreViewController new];
+        _moreVC.tabBarItem.image = [UIImage imageNamed:@"MPTTabarCapture_60x64_"];
+        _moreVC.tabBarItem.imageInsets = UIEdgeInsetsMake(-6, 0, 6, 0);
     }
     return _moreVC;
 }
 
 -(FindViewController *)findVC{
     if (!_findVC) {
-        _findVC = [FindViewController new];
+        UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
+        layout.minimumLineSpacing = 38;
+        layout.minimumInteritemSpacing = 42;
+        layout.sectionInset = UIEdgeInsetsMake(15, 25, 25, 25);
+        CGFloat width = (long)(([UIScreen mainScreen].bounds.size.width -136) / 3);
+        CGFloat height = width + 25;
+        layout.itemSize = CGSizeMake(width, height);
+        
+        _findVC = [[FindViewController alloc] initWithCollectionViewLayout:layout];
         _findVC.title = @"发现";
         _findVC.tabBarItem.image = [UIImage imageNamed:@"MPTTabarTopic_49x36_"];
         _findVC.tabBarItem.selectedImage = [UIImage imageNamed:@"MPTTabarTopicSelected_49x36_"];
@@ -85,9 +100,13 @@
     UINavigationController *navi4 = [[UINavigationController alloc] initWithRootViewController:self.mineVC];
     self.viewControllers = @[navi0, navi1, navi2, navi3, navi4];
     
+    
+    
     //全局
+    [UITabBar appearance].translucent = NO;
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: kSelectColor} forState:UIControlStateSelected];
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: kSelectColor} forState:UIControlStateNormal];
+    
 }
 
 - (void)didReceiveMemoryWarning {

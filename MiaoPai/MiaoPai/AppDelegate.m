@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TabBarController.h"
+#import "FindNetManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [FindNetManager getFindWithCompletionHandler:^(FindModel *model, NSError *error) {
+        NSLog(@"");
+    }];
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     TabBarController *tab = [TabBarController new];
