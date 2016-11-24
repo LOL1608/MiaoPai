@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "ReMenCell.h"
 #import "ImageCell.h"
+#import "PlayerViewController.h"
 @interface HomeViewController ()<UICollectionViewDelegateFlowLayout>
 @property (nonatomic) NSMutableArray<ReMenResultModel *> *dataList;
 @property (nonatomic) NSInteger page;
@@ -107,9 +108,13 @@
     }
 }
 
-
-
-
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    PlayerViewController *vc = [[PlayerViewController alloc] initWithReMenResultModel:self.dataList[indexPath.row]];
+    ReMenResultModel *model = self.dataList[indexPath.row];
+    if ([model.type isEqualToString:@"channel"]) {
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+}
 
 
 

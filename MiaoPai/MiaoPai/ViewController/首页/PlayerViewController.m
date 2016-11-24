@@ -8,16 +8,27 @@
 //
 
 #import "PlayerViewController.h"
-
+@import AVFoundation;
 @interface PlayerViewController ()
-
+@property (nonatomic) AVPlayer *player;
+@property (nonatomic) AVPlayerLayer *playerLayer;
 @end
 
 @implementation PlayerViewController
-
+- (id)initWithReMenResultModel:(ReMenResultModel *)dataList{
+    if (self = [super init]) {
+        _dataList = dataList;
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSString *path = [NSString stringWithFormat:@"%@%@", self.dataList.channel.stream.base, self.dataList.channel.stream.sign];
+    self.player = [AVPlayer playerWithURL:[NSURL URLWithString:path]];
+    [self.player play];
+    self.playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.player];
+    [self.view.layer addSublayer:self.playerLayer];
+    self.playerLayer.frame = self.view.frame;
 }
 
 - (void)didReceiveMemoryWarning {

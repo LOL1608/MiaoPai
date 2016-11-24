@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface PlayerViewController : UIViewController
-
+- (id)initWithReMenResultModel:(ReMenResultModel *)dataList;
+@property (nonatomic) ReMenResultModel *dataList;
 @end
