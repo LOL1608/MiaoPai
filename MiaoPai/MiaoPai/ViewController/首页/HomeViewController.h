@@ -10,4 +10,5 @@
 
 @interface HomeViewController : UICollectionViewController
 @property (nonatomic) NSInteger typeIndex;
+//- (instancetype)init;
 @end

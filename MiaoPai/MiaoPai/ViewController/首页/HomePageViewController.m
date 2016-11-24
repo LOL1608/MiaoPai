@@ -8,7 +8,7 @@
 
 #import "HomePageViewController.h"
 #import "HomeViewController.h"
-
+#import "GuanZhuTableViewController.h"
 @interface HomePageViewController ()
 
 @end
@@ -33,8 +33,13 @@
     layout.sectionInset = UIEdgeInsetsMake(6, 6, 6, 6);
     CGFloat width = (long)(([UIScreen mainScreen].bounds.size.width - 18) * 0.5);
     layout.itemSize = CGSizeMake(width, 180);
+//    layout.estimatedItemSize = CGSizeMake(width, 180);
     HomeViewController *vc = [[HomeViewController alloc] initWithCollectionViewLayout:layout];
     vc.typeIndex = index;
+    if (index == 0) {
+        GuanZhuTableViewController *guanZhuVC = [[GuanZhuTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+        return guanZhuVC;
+    }
     return vc;
 }
 

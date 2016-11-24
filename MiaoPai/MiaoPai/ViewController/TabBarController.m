@@ -37,6 +37,8 @@
         _homeVC.showOnNavigationBar = YES;
         _homeVC.menuBGColor = [UIColor clearColor];
 //        _homeVC.menuViewStyle = WMMenuViewStyleLine;
+        //设置跳转启动跳转后默认界面为热门界面
+        _homeVC.selectIndex = 1;
     }
     return _homeVC;
 }
@@ -69,7 +71,6 @@
         CGFloat width = (long)(([UIScreen mainScreen].bounds.size.width -136) / 3);
         CGFloat height = width + 25;
         layout.itemSize = CGSizeMake(width, height);
-        
         _findVC = [[FindViewController alloc] initWithCollectionViewLayout:layout];
         _findVC.title = @"发现";
         _findVC.tabBarItem.image = [UIImage imageNamed:@"MPTTabarTopic_49x36_"];

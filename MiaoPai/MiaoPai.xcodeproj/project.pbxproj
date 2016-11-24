@@ -14,6 +14,18 @@
 		6F0686791DE02ED500C78337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0686771DE02ED500C78337 /* Main.storyboard */; };
 		6F06867B1DE02ED500C78337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F06867A1DE02ED500C78337 /* Assets.xcassets */; };
 		6F06867E1DE02ED500C78337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F06867C1DE02ED500C78337 /* LaunchScreen.storyboard */; };
+		C861ABE51DE712500098D928 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C861ABE41DE712500098D928 /* PlayerViewController.m */; };
+		C87C25CF1DE46AA800FE62BB /* ReMenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C87C25CE1DE46AA800FE62BB /* ReMenCell.m */; };
+		C8F400591DE52F77008C9E35 /* ReMenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F400581DE52F77008C9E35 /* ReMenModel.m */; };
+		C8F4005C1DE530C1008C9E35 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4005B1DE530C1008C9E35 /* ImageCell.m */; };
+		C8F4005F1DE579C8008C9E35 /* GuanZhuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4005E1DE579C8008C9E35 /* GuanZhuModel.m */; };
+		C8F400621DE57F07008C9E35 /* GuanZhuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F400611DE57F07008C9E35 /* GuanZhuCell.m */; };
+		C8F400651DE5824C008C9E35 /* GuanZhuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F400641DE5824C008C9E35 /* GuanZhuTableViewController.m */; };
+		C8F4006C1DE58E69008C9E35 /* MPTFriendMobile.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F4006A1DE58E69008C9E35 /* MPTFriendMobile.png */; };
+		C8F4006D1DE58E69008C9E35 /* MPTFriendMobile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F4006B1DE58E69008C9E35 /* MPTFriendMobile@2x.png */; };
+		C8F400701DE58E7B008C9E35 /* MPTFriendWeibo.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F4006E1DE58E7B008C9E35 /* MPTFriendWeibo.png */; };
+		C8F400711DE58E7B008C9E35 /* MPTFriendWeibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F4006F1DE58E7B008C9E35 /* MPTFriendWeibo@2x.png */; };
+		C8F400741DE58EB3008C9E35 /* GuanZhuHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F400731DE58EB3008C9E35 /* GuanZhuHeadCell.m */; };
 		FB3D10DC1DE04C2100874053 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10DB1DE04C2100874053 /* TabBarController.m */; };
 		FB3D10DF1DE04CF500874053 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10DE1DE04CF500874053 /* HomeViewController.m */; };
 		FB3D10E21DE04D0600874053 /* HotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10E11DE04D0600874053 /* HotViewController.m */; };
@@ -42,6 +54,26 @@
 		6F06867A1DE02ED500C78337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		6F06867D1DE02ED500C78337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F06867F1DE02ED500C78337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C861ABE31DE712500098D928 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		C861ABE41DE712500098D928 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		C87C25CD1DE46AA800FE62BB /* ReMenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReMenCell.h; sourceTree = "<group>"; };
+		C87C25CE1DE46AA800FE62BB /* ReMenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReMenCell.m; sourceTree = "<group>"; };
+		C8F400571DE52F77008C9E35 /* ReMenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReMenModel.h; sourceTree = "<group>"; };
+		C8F400581DE52F77008C9E35 /* ReMenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReMenModel.m; sourceTree = "<group>"; };
+		C8F4005A1DE530C1008C9E35 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		C8F4005B1DE530C1008C9E35 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		C8F4005D1DE579C8008C9E35 /* GuanZhuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuanZhuModel.h; sourceTree = "<group>"; };
+		C8F4005E1DE579C8008C9E35 /* GuanZhuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuanZhuModel.m; sourceTree = "<group>"; };
+		C8F400601DE57F07008C9E35 /* GuanZhuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuanZhuCell.h; sourceTree = "<group>"; };
+		C8F400611DE57F07008C9E35 /* GuanZhuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuanZhuCell.m; sourceTree = "<group>"; };
+		C8F400631DE5824C008C9E35 /* GuanZhuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuanZhuTableViewController.h; sourceTree = "<group>"; };
+		C8F400641DE5824C008C9E35 /* GuanZhuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuanZhuTableViewController.m; sourceTree = "<group>"; };
+		C8F4006A1DE58E69008C9E35 /* MPTFriendMobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPTFriendMobile.png; sourceTree = "<group>"; };
+		C8F4006B1DE58E69008C9E35 /* MPTFriendMobile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPTFriendMobile@2x.png"; sourceTree = "<group>"; };
+		C8F4006E1DE58E7B008C9E35 /* MPTFriendWeibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPTFriendWeibo.png; sourceTree = "<group>"; };
+		C8F4006F1DE58E7B008C9E35 /* MPTFriendWeibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPTFriendWeibo@2x.png"; sourceTree = "<group>"; };
+		C8F400721DE58EB3008C9E35 /* GuanZhuHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuanZhuHeadCell.h; sourceTree = "<group>"; };
+		C8F400731DE58EB3008C9E35 /* GuanZhuHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuanZhuHeadCell.m; sourceTree = "<group>"; };
 		E2746B9BFC4A982DA28BC0C0 /* Pods-MiaoPai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiaoPai.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiaoPai/Pods-MiaoPai.release.xcconfig"; sourceTree = "<group>"; };
 		FB3D10D81DE04B0400874053 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		FB3D10D91DE04B3500874053 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -110,13 +142,17 @@
 				6F0686721DE02ED500C78337 /* AppDelegate.m */,
 				6F0686741DE02ED500C78337 /* ViewController.h */,
 				6F0686751DE02ED500C78337 /* ViewController.m */,
+				C8F4006A1DE58E69008C9E35 /* MPTFriendMobile.png */,
+				C8F4006B1DE58E69008C9E35 /* MPTFriendMobile@2x.png */,
+				C8F4006E1DE58E7B008C9E35 /* MPTFriendWeibo.png */,
+				C8F4006F1DE58E7B008C9E35 /* MPTFriendWeibo@2x.png */,
+				FB3D10CD1DE04A9D00874053 /* Define */,
+				FB3D10CC1DE04A9D00874053 /* Category */,
 				FB3D10CE1DE04A9D00874053 /* Model */,
+				FB3D10CF1DE04A9D00874053 /* NetManager */,
+				FB3D10D01DE04A9D00874053 /* Resource */,
 				FB3D10D11DE04A9D00874053 /* View */,
 				FB3D10D21DE04A9D00874053 /* ViewController */,
-				FB3D10CF1DE04A9D00874053 /* NetManager */,
-				FB3D10CC1DE04A9D00874053 /* Category */,
-				FB3D10CD1DE04A9D00874053 /* Define */,
-				FB3D10D01DE04A9D00874053 /* Resource */,
 				6F06866E1DE02ED500C78337 /* Supporting Files */,
 			);
 			path = MiaoPai;
@@ -173,6 +209,10 @@
 			children = (
 				FBF6BD221DE17F99004DC048 /* FindModel.h */,
 				FBF6BD231DE17F99004DC048 /* FindModel.m */,
+				C8F400571DE52F77008C9E35 /* ReMenModel.h */,
+				C8F400581DE52F77008C9E35 /* ReMenModel.m */,
+				C8F4005D1DE579C8008C9E35 /* GuanZhuModel.h */,
+				C8F4005E1DE579C8008C9E35 /* GuanZhuModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,6 +241,14 @@
 		FB3D10D11DE04A9D00874053 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C87C25CD1DE46AA800FE62BB /* ReMenCell.h */,
+				C87C25CE1DE46AA800FE62BB /* ReMenCell.m */,
+				C8F4005A1DE530C1008C9E35 /* ImageCell.h */,
+				C8F4005B1DE530C1008C9E35 /* ImageCell.m */,
+				C8F400601DE57F07008C9E35 /* GuanZhuCell.h */,
+				C8F400611DE57F07008C9E35 /* GuanZhuCell.m */,
+				C8F400721DE58EB3008C9E35 /* GuanZhuHeadCell.h */,
+				C8F400731DE58EB3008C9E35 /* GuanZhuHeadCell.m */,
 				FBF6BD281DE181EB004DC048 /* FindCell.h */,
 				FBF6BD291DE181EB004DC048 /* FindCell.m */,
 			);
@@ -264,6 +312,10 @@
 				FB3D10DE1DE04CF500874053 /* HomeViewController.m */,
 				FBF6BD161DE14E8D004DC048 /* HomePageViewController.h */,
 				FBF6BD171DE14E8D004DC048 /* HomePageViewController.m */,
+				C8F400631DE5824C008C9E35 /* GuanZhuTableViewController.h */,
+				C8F400641DE5824C008C9E35 /* GuanZhuTableViewController.m */,
+				C861ABE31DE712500098D928 /* PlayerViewController.h */,
+				C861ABE41DE712500098D928 /* PlayerViewController.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -330,8 +382,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F400711DE58E7B008C9E35 /* MPTFriendWeibo@2x.png in Resources */,
+				C8F400701DE58E7B008C9E35 /* MPTFriendWeibo.png in Resources */,
 				6F06867E1DE02ED500C78337 /* LaunchScreen.storyboard in Resources */,
+				C8F4006C1DE58E69008C9E35 /* MPTFriendMobile.png in Resources */,
 				6F06867B1DE02ED500C78337 /* Assets.xcassets in Resources */,
+				C8F4006D1DE58E69008C9E35 /* MPTFriendMobile@2x.png in Resources */,
 				6F0686791DE02ED500C78337 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,20 +447,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F4005C1DE530C1008C9E35 /* ImageCell.m in Sources */,
 				FBF6BD241DE17F99004DC048 /* FindModel.m in Sources */,
+				C8F400591DE52F77008C9E35 /* ReMenModel.m in Sources */,
+				C8F400741DE58EB3008C9E35 /* GuanZhuHeadCell.m in Sources */,
 				FB3D10E21DE04D0600874053 /* HotViewController.m in Sources */,
+				C861ABE51DE712500098D928 /* PlayerViewController.m in Sources */,
 				FBF6BD1B1DE1645D004DC048 /* NSString+MP.m in Sources */,
+				C8F400621DE57F07008C9E35 /* GuanZhuCell.m in Sources */,
 				6F0686761DE02ED500C78337 /* ViewController.m in Sources */,
 				FBF6BD181DE14E8D004DC048 /* HomePageViewController.m in Sources */,
 				FB3D10DC1DE04C2100874053 /* TabBarController.m in Sources */,
+				C8F4005F1DE579C8008C9E35 /* GuanZhuModel.m in Sources */,
 				FBF6BD2A1DE181EB004DC048 /* FindCell.m in Sources */,
 				FBF6BD211DE165CC004DC048 /* BaseNetManager.m in Sources */,
 				FB3D10EB1DE04D3400874053 /* MineViewController.m in Sources */,
 				6F0686731DE02ED500C78337 /* AppDelegate.m in Sources */,
+				C8F400651DE5824C008C9E35 /* GuanZhuTableViewController.m in Sources */,
 				FBF6BD271DE1808E004DC048 /* FindNetManager.m in Sources */,
 				FB3D10DF1DE04CF500874053 /* HomeViewController.m in Sources */,
 				FB3D10E51DE04D2100874053 /* MoreViewController.m in Sources */,
 				FBF6BD1E1DE164A1004DC048 /* NSObject+Parse.m in Sources */,
+				C87C25CF1DE46AA800FE62BB /* ReMenCell.m in Sources */,
 				6F0686701DE02ED500C78337 /* main.m in Sources */,
 				FB3D10E81DE04D2B00874053 /* FindViewController.m in Sources */,
 			);
