@@ -12,8 +12,10 @@
 		6F0686731DE02ED500C78337 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0686721DE02ED500C78337 /* AppDelegate.m */; };
 		6F0686761DE02ED500C78337 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0686751DE02ED500C78337 /* ViewController.m */; };
 		6F0686791DE02ED500C78337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0686771DE02ED500C78337 /* Main.storyboard */; };
-		6F06867B1DE02ED500C78337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F06867A1DE02ED500C78337 /* Assets.xcassets */; };
 		6F06867E1DE02ED500C78337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F06867C1DE02ED500C78337 /* LaunchScreen.storyboard */; };
+		7B060DF31DE7E2EA00E6FF94 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B060DF11DE7E2EA00E6FF94 /* MineViewController.m */; };
+		7B060DF41DE7E2EA00E6FF94 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B060DF21DE7E2EA00E6FF94 /* MineViewController.xib */; };
+		7B060E001DE7E79200E6FF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B060DFF1DE7E79200E6FF94 /* Assets.xcassets */; };
 		C861ABE51DE712500098D928 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C861ABE41DE712500098D928 /* PlayerViewController.m */; };
 		C87C25CF1DE46AA800FE62BB /* ReMenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C87C25CE1DE46AA800FE62BB /* ReMenCell.m */; };
 		C8F400591DE52F77008C9E35 /* ReMenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F400581DE52F77008C9E35 /* ReMenModel.m */; };
@@ -31,7 +33,6 @@
 		FB3D10E21DE04D0600874053 /* HotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10E11DE04D0600874053 /* HotViewController.m */; };
 		FB3D10E51DE04D2100874053 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10E41DE04D2100874053 /* MoreViewController.m */; };
 		FB3D10E81DE04D2B00874053 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10E71DE04D2B00874053 /* FindViewController.m */; };
-		FB3D10EB1DE04D3400874053 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D10EA1DE04D3400874053 /* MineViewController.m */; };
 		FBF6BD181DE14E8D004DC048 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BD171DE14E8D004DC048 /* HomePageViewController.m */; };
 		FBF6BD1B1DE1645D004DC048 /* NSString+MP.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BD1A1DE1645D004DC048 /* NSString+MP.m */; };
 		FBF6BD1E1DE164A1004DC048 /* NSObject+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BD1D1DE164A1004DC048 /* NSObject+Parse.m */; };
@@ -51,9 +52,12 @@
 		6F0686741DE02ED500C78337 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6F0686751DE02ED500C78337 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6F0686781DE02ED500C78337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6F06867A1DE02ED500C78337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		6F06867D1DE02ED500C78337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F06867F1DE02ED500C78337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B060DF01DE7E2EA00E6FF94 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		7B060DF11DE7E2EA00E6FF94 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		7B060DF21DE7E2EA00E6FF94 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		7B060DFF1DE7E79200E6FF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C861ABE31DE712500098D928 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		C861ABE41DE712500098D928 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		C87C25CD1DE46AA800FE62BB /* ReMenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReMenCell.h; sourceTree = "<group>"; };
@@ -87,8 +91,6 @@
 		FB3D10E41DE04D2100874053 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
 		FB3D10E61DE04D2B00874053 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
 		FB3D10E71DE04D2B00874053 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
-		FB3D10E91DE04D3400874053 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
-		FB3D10EA1DE04D3400874053 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		FBF6BD161DE14E8D004DC048 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		FBF6BD171DE14E8D004DC048 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		FBF6BD191DE1645D004DC048 /* NSString+MP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MP.h"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				C8F4006B1DE58E69008C9E35 /* MPTFriendMobile@2x.png */,
 				C8F4006E1DE58E7B008C9E35 /* MPTFriendWeibo.png */,
 				C8F4006F1DE58E7B008C9E35 /* MPTFriendWeibo@2x.png */,
+				7B060DFF1DE7E79200E6FF94 /* Assets.xcassets */,
 				FB3D10CD1DE04A9D00874053 /* Define */,
 				FB3D10CC1DE04A9D00874053 /* Category */,
 				FB3D10CE1DE04A9D00874053 /* Model */,
@@ -232,7 +235,6 @@
 			isa = PBXGroup;
 			children = (
 				6F0686771DE02ED500C78337 /* Main.storyboard */,
-				6F06867A1DE02ED500C78337 /* Assets.xcassets */,
 				6F06867C1DE02ED500C78337 /* LaunchScreen.storyboard */,
 			);
 			path = Resource;
@@ -281,8 +283,9 @@
 		FB3D10D41DE04A9D00874053 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
-				FB3D10E91DE04D3400874053 /* MineViewController.h */,
-				FB3D10EA1DE04D3400874053 /* MineViewController.m */,
+				7B060DF01DE7E2EA00E6FF94 /* MineViewController.h */,
+				7B060DF11DE7E2EA00E6FF94 /* MineViewController.m */,
+				7B060DF21DE7E2EA00E6FF94 /* MineViewController.xib */,
 			);
 			path = "我的";
 			sourceTree = "<group>";
@@ -385,10 +388,11 @@
 				C8F400711DE58E7B008C9E35 /* MPTFriendWeibo@2x.png in Resources */,
 				C8F400701DE58E7B008C9E35 /* MPTFriendWeibo.png in Resources */,
 				6F06867E1DE02ED500C78337 /* LaunchScreen.storyboard in Resources */,
+				7B060E001DE7E79200E6FF94 /* Assets.xcassets in Resources */,
 				C8F4006C1DE58E69008C9E35 /* MPTFriendMobile.png in Resources */,
-				6F06867B1DE02ED500C78337 /* Assets.xcassets in Resources */,
 				C8F4006D1DE58E69008C9E35 /* MPTFriendMobile@2x.png in Resources */,
 				6F0686791DE02ED500C78337 /* Main.storyboard in Resources */,
+				7B060DF41DE7E2EA00E6FF94 /* MineViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,8 +465,8 @@
 				C8F4005F1DE579C8008C9E35 /* GuanZhuModel.m in Sources */,
 				FBF6BD2A1DE181EB004DC048 /* FindCell.m in Sources */,
 				FBF6BD211DE165CC004DC048 /* BaseNetManager.m in Sources */,
-				FB3D10EB1DE04D3400874053 /* MineViewController.m in Sources */,
 				6F0686731DE02ED500C78337 /* AppDelegate.m in Sources */,
+				7B060DF31DE7E2EA00E6FF94 /* MineViewController.m in Sources */,
 				C8F400651DE5824C008C9E35 /* GuanZhuTableViewController.m in Sources */,
 				FBF6BD271DE1808E004DC048 /* FindNetManager.m in Sources */,
 				FB3D10DF1DE04CF500874053 /* HomeViewController.m in Sources */,

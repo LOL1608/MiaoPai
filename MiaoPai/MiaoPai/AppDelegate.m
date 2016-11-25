@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "TabBarController.h"
 #import "FindNetManager.h"
-
+#import "MineViewController.h"//待删
 @interface AppDelegate ()
 
 @end
@@ -22,6 +22,13 @@
     [self.window makeKeyAndVisible];
     TabBarController *tab = [TabBarController new];
     self.window.rootViewController = tab;
+    
+//    //测试 待删
+//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[[MineViewController alloc] init]];
+//    self.window.rootViewController = navi;
+//    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
